@@ -152,8 +152,8 @@ h3 {
 
 .border2 {
     position: absolute;
-    /* box-shadow: 8px 8px 0px 0px #29728B40;
-    box-shadow: -8px -8px 0px 0px #1F72AA75; */
+    box-shadow: 8px 8px 0px 0px #29728B40;
+    box-shadow: -8px -8px 0px 0px #1F72AA75; 
     background-color: #adc8d1;
     bottom: -10px;
     right: -10px;
@@ -224,6 +224,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 #sec3-div3 {
     background-color: #AAD8D7CC;
@@ -237,6 +238,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 #sec3-div4 {
     background-color: #8BC0BDCC;
@@ -250,6 +252,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 #sec3-div5 {
     background-color: #97CCE0CC;
@@ -261,6 +264,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 .card-1-id {
     font-size: 12px;
@@ -277,4 +281,52 @@ div button {
     right: 10px;
     border-radius: 20px;
     border: 0;
+}
+.but-style {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+}
+#destination-card-div {
+    width: 570px;
+}
+#destination-pic-div {
+    width: 600px;
+    color: white;
+    position: relative;
+}
+#destination-card-and-pic-div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#destination-pic-1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/7d8a/5e71/16010885e9b9cf404e7b21d9eda6fd49?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YmR0u~d6BpUSuBb4Amo2z4Hm687N5oa8O7W0tQry3OD4pfi-xrjq7rcyPAbu43pwFdokBka4m9iddCGX4KQ60wsBTZeuAt98zNOWIPDlsLL2HC4l7XzKH~TA1hE02iFX4CUv9sGPBYfwQGrGrN~xr65YUkg6e-yUSAwvQTSxHZf~ZEklPfGSr0OMo41VRRQAAyRyQPx1-nMC63ZUDgtexwD8L0Nd-yVPD8Hg2PrTpOIpFV-9sCf7JdCQWcBEpjONGCYgiGmrbnrSNnd50zekqDgrvRk5WnDzPoXdkkAqIdo-nK60MPQirTfWu8vsxHW7gwOzRW0hBKfnU2ZkQWlZWg__);
+    top: 20px;
+    left: 80px;
+}
+.destination-pic {
+    background-size: cover;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+#destination-pic-2 {background-image: url(https://s3-alpha-sig.figma.com/img/8f09/fa0d/d136f7ce9c71c9e1f9031385625fbe25?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QCqB4XXM0oVpt0i9zHYavSzh-x1Bpx8Rs0H~9GDTY5eNtAN6p2F5eFlC1vTevVH~Mnsx2mgQDYqpvtIf2MGJ4-2hBiO62q3NjeR1KHO4-0ESW5fadS~gH73ZeAy2mtjJvkiXfBgqMr4PDeepsGHkOMpV0GWQCtMDlMC~7ghbYsRDsJhclI50SM16oDabFiV6RHozOfxXmZsXL6BKw1qo9xFjWkK7Riw7jYSkvaKxV~-Addw~JxTjkvHD6rmP7ZEh9FGIfwgc-M96vtpz8DxygvTO~lRkbAgd3qCvKJStx7VgYb1oiGjXbILRX3P1xmsrc6pIWeTfd8WVIrp87negqw__);
+    top: 200px;
+    left: 250px;
+}
+#destination-pic-3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/8820/a5c8/8b32e176586e22e170a49302cd4312c1?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frA6daWtZGg1q7ZMSkxaEqlqjN9eGHFC0gpiwQW9ZwPb0Lw9rXjcH6XHQHhf27wsGKQfyk4BMjmVV-dPuQM23UG4cx5UhGpM~DJOuzg~HyXNwP1Y7UVbowOH-ciihDq7v7IlzUgB2wCFydkq4uuP9RnZQEzf-p2nZxN-8O6S8FxJY3dfTFjFrKW9Yn7Sc6m9F19k5w6Kj1cpYbja6Q1DaEm0Q8P2p0UA672dVNjg8vtsLl~5rZijLpmYamk7OkDK7hiYyNdwXncZuzvvhG~E2IMhZEKoBZ-UKBFKvQB36XLX9lnFKZbQbPypXVXn25WQQGfm5NSF7zlYNH-yvOLbXw__);
+    top: 40px;
+    left: 400px;
+}
+#destination-pic-4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/b635/3498/5a1bc5ae5c2f51cc2bb4ca30b089e3a8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bn4S63hShgEGJD7eOYawJ4xn1igc~kRfj2drA-oLlFUDC03ExKPcriGbCEtlVJwtoznbHtigFsSIGHQtlQucJQW-bY33vQp2jv8HP2JT-FN0lcXDqCytJmW-Kd6wb41la7dMOJZ8XbpnKtoD-g9LhbyzyIcpSPThoC7uIJA5~hUZGqgoXMvu~jt5E1wFRSrvKWDOi81NriTYzX~SquObaFDhGWT05B20CosdoIOSazXEQdO4QK1IHRYAba4ogbAgpcGTPLlbcdDWroGC6X7O8Saf-pji9pcKlkX0HveiiYt58rQULMHJjEPUQN7SYyxZnxv47mNq2zfI6Nc9f6zFqg__);
+    top: 170px;
+    left: 50px;
+}
+#destination-pic-5 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/abf7/b908/4f304b70834bf8724703cf382d2f4529?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YPPOYrA3l07~fRM1tfWn~rrlbp5EZpa4-B1SyaiLcTWnbH6Eo9IFM4kEbnHZam4GwcASk6eTzkAvp0j83znTeug7Gx~1TyJMF4MN2BEQVaXG-5a2f3AhdFXwJRlJnPd5gcQGvrufw6MQcMLwGRxy1ywWfPZH68xgFG80LZt-qG0jOa6RndZwO2mElBqhPwiWJYb5ZAkSMCVJB2L7A7DtVsLVIWwZT84dhCu~e855ap4uebsPnm-cLiFJriLx8frvzL3N1ZaSGcac6i4l3TfmTMmQdAxTBfSRXv9Zg6R~-FfpY9meh2Qzvh9YyE5NhF8h315FMe7hvX~WHBLo~VHdFg__);
+    top: 50px;
+    left: 250px;
 }
