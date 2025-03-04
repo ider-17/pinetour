@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    background-image: url(assets/main-bg.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.language-btn {
+    background-color: white;
+    border-radius: 24px;
+    padding: 13px;
+
+}
+
+.pure-magic {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #e8edf2b8;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.awaits {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 250px;
+    color: #FDFDFEFA;
+}
+
+.year {
+    font-family: "Hanuman", serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color: white
+}
+
+.title-container {
+    text-align: center;
+}
+
+.cards {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-image: url(assets/cards-bg.svg);
+}
+
+.card {
+    width: 275px;
+    height: 370px;
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 44.4px;
+    text-align: center;
+    color: #FDFDFECC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px rgb(176, 214, 241), -10px -10px rgb(144, 186, 203);
+}
+
+.terkhiin-tsagaan-lake {
+    background-image: url(assets/terkhiin-tsagaan-lake-card.svg);
+}
+
+.amarbayasgalant-monastery {
+    background-image: url(assets/amarbayasgalant-card.svg);
+}
+
+.khuvsgul-lake {
+    background-image: url(assets/khuvsgul-lake-card.svg);
+}
+
+.khorgiin-togoo {
+    background-image: url(assets/khorgiin-togoo-card.svg);
+}
+
+.destination {
+    background-image: url(assets/destination.svg);
+    background-position: bottom;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.destination-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50.83px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.destination-sub-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+    color: #18181BB2;
+}
+
+.destination-cards-container {
+    width: 1200px;
+    height: 640px;
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.destination-card {
+    width: 513px;
+    height: 112px;
+    border-radius: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 5px solid transparent;
+}
+
+.sukhbaatar-square-card {
+    background: #EEE9D9;
+}
+
+.amarbayasgalant-monastery-card {
+    background: #8BB8C1CC;
+}
+
+.khorgiin-togoo-card {
+    background: #AAD8D7CC;
+}
+
+.terkhiin-tsagaan-lake-card {
+    background: #8BC0BDCC;
+}
+
+.khuvsgul-lake-card {
+    background: #97CCE0CC;
+}
+
+.dest-card-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: black;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.pin {
+    width: 14px;
+    height: 14px;
+    margin-left: 24px;
+}
+
+.dest-card-location {
+    display: flex;
+}
+
+.location {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: black;
+}
+
+.days {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.48px;
+    color: black;
+    padding: 18px 8px;
+    display: flex;
+    align-self: center;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.sukhbaatar-square-pic {
+    position: absolute;
+    top: 10px;
+    right: -600px;
+    width: 250px;
+    display: none;
+}
+
+.amarbayasgalant-monastery-pic {
+    position: absolute;
+    top: -150px;
+    right: -400px;
+    width: 250px;
+    display: none;
+}
+
+.khorgiin-togoo-pic {
+    position: absolute;
+    top: -100px;
+    right: -500px;
+    width: 250px;
+    display: none;
+}
+
+.terkhiin-tsagaan-lake-pic {
+    position: absolute;
+    top: -150px;
+    right: -300px;
+    width: 250px;
+    display: none;
+}
+
+.khuvsgul-lake-pic {
+    position: absolute;
+    top: -150px;
+    right: -500px;
+    width: 250px;
+    display: none;
+}
+
+.sukhbaatar-square-card:hover .sukhbaatar-square-pic,
+.amarbayasgalant-monastery-card:hover .amarbayasgalant-monastery-pic,
+.khorgiin-togoo-card:hover .khorgiin-togoo-pic,
+.terkhiin-tsagaan-lake-card:hover .terkhiin-tsagaan-lake-pic,
+.khuvsgul-lake-card:hover .khuvsgul-lake-pic {
+    display: block;
+}
+
+.sukhbaatar-square-card:hover,
+.amarbayasgalant-monastery-card:hover,
+.khorgiin-togoo-card:hover,
+.terkhiin-tsagaan-lake-card:hover,
+.khuvsgul-lake-card:hover {
+    border-color: white;
+}
+
+.pricing {
+    background-image: url(assets/pricing.svg);
+    background-position: top;
+}
+
+.pricing-title {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50.83px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.pricing-sub-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+    color: #18181BB2;
+    margin-top: 10px;
+}
+
+.pricing-cards-container {
+    width: 1200px;
+    height: 527px;
+    display: flex;
+    gap: 20px;
+    margin-top: 79px;
+    justify-self: center;
+}
+
+.pricing-cards {
+    width: 384px;
+    height: 527px;
+    border-radius: 40px;
+    background-color: white;
+    padding: 24px;
+}
+
+.pricing-cards-title {
+    margin-top: 8px;
+    display: flex;
+}
+
+.heart-icon {
+    padding: 10px 9px;
+    border-radius: 50%;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.pricing-cards-title-text {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    display: flex;
+    align-self: center;
+    margin-left: 16px;
+}
+
+.pricing-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48.76px;
+    color: black;
+    margin-top: 30px;
+}
+
+.pricing-grey-text {
+    color: #919191;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-top: 12px;
+}
+
+.pricing-info {
+    width: 336px;
+    height: 180px;
+}
+
+.pricing-info-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.check-icon {
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+.pricing-info-text {
+    color: #3F4145;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-top: 16px;
+}
+
+.select-package {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    padding: 16px 18px;
+    background: #A4D1E2;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.pricing-sub-title-pupular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular {
+    padding: 4px 16px;
+    color: white;
+    background: #6972B5;
+    border-radius: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-top: 8px;
+}
